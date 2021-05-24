@@ -1,4 +1,7 @@
 <!-- add-breadcrumbs -->
+
+> This integration is now deprecated and will be removed in the future version (v14). We recommend using the [new integration created as a Frappe App](/docs/user/manual/en/erpnext_integration/shopify_integration_app) which has cool new features like Inventory sync.
+
 # Shopify Integration
 
 The Shopify Connector pulls the orders from Shopify and creates Sales Order against them in ERPNext.
@@ -25,7 +28,7 @@ Once you have created a Private App on Shopify, setup App Credentials and other 
 > To access Shopify Settings, go to:
 Integrations > Shopify Settings
 
-Note: Shopify does not support unsecure HTTP connection. Your ERPNext site must be able to accept HTTPS requests. Access your ERPNext site using `https://` url before proceeding.
+Note: Shopify does not support insecure HTTP connection. Your ERPNext site must be able to accept HTTPS requests. Access your ERPNext site using `https://` url before proceeding.
 
 1. Select App Type as Private and Fill-up API key, Password and Shared Secret from Shopify's Private App.
 <img class="screenshot" alt="Setup Private App Credentials" src="{{docs_base_url}}/assets/img/erpnext_integrations/app_details.png">
@@ -34,7 +37,7 @@ Note: Shopify does not support unsecure HTTP connection. Your ERPNext site must 
 <img class="screenshot" alt="ERP Configurations" src="{{docs_base_url}}/assets/img/erpnext_integrations/erp_configurations.png">
 
 3. Setup Sync Configurations.
-    The system pulls Orders from Shopify and creates Sales Order in ERPNext. You can configure ERPNext system to capture payment and fulfilments against orders.
+    The system pulls Orders from Shopify and creates Sales Order in ERPNext. You can configure ERPNext system to capture payment and fulfillments against orders.
 <img class="screenshot" alt="Sync Configure" src="{{docs_base_url}}/assets/img/erpnext_integrations/sync_config.png">
 
 4. Setup Tax Mapper.
